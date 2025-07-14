@@ -10,13 +10,13 @@
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
     
-    /* Brand colors - Pastel bright palette */
-    --primary: 330 70% 80%;
-    --primary-glow: 340 65% 85%;
-    --secondary: 200 70% 80%;
-    --accent: 20 75% 80%;
-    --warning: 45 70% 75%;
-    --success: 150 60% 75%;
+    /* Brand colors - Vibrant unique palette */
+    --primary: 280 100% 70%;
+    --primary-glow: 290 100% 85%;
+    --secondary: 190 100% 65%;
+    --accent: 40 100% 65%;
+    --warning: 25 100% 60%;
+    --success: 160 80% 50%;
     
     /* UI colors */
     --card: 240 10% 5%;
