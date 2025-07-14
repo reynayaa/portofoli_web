@@ -33,11 +33,23 @@ const Home = () => {
     <div className="relative">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden">
-        {/* Background Decorations */}
+        {/* Enhanced Background */}
+        <div className="absolute inset-0 bg-gradient-hero"></div>
+        
+        {/* Animated Background Decorations */}
         <div className="absolute inset-0">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-primary/20 rounded-full blur-3xl float"></div>
-          <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/15 rounded-full blur-3xl float" style={{ animationDelay: '2s' }}></div>
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-secondary/10 rounded-full blur-3xl float" style={{ animationDelay: '4s' }}></div>
+          <div className="absolute top-10 left-10 w-80 h-80 bg-gradient-to-r from-primary/30 to-secondary/20 rounded-full blur-3xl float animate-pulse"></div>
+          <div className="absolute bottom-10 right-10 w-96 h-96 bg-gradient-to-l from-accent/25 to-warning/15 rounded-full blur-3xl float" style={{ animationDelay: '2s' }}></div>
+          <div className="absolute top-1/3 right-1/4 w-64 h-64 bg-gradient-to-br from-success/20 to-primary/15 rounded-full blur-3xl float" style={{ animationDelay: '4s' }}></div>
+          <div className="absolute bottom-1/3 left-1/4 w-72 h-72 bg-gradient-to-tl from-secondary/20 to-accent/10 rounded-full blur-3xl float" style={{ animationDelay: '6s' }}></div>
+        </div>
+        
+        {/* Sparkle Effects */}
+        <div className="absolute inset-0 opacity-30">
+          <div className="absolute top-1/4 left-1/3 w-2 h-2 bg-primary rounded-full animate-ping" style={{ animationDelay: '1s' }}></div>
+          <div className="absolute top-2/3 right-1/3 w-1 h-1 bg-accent rounded-full animate-ping" style={{ animationDelay: '3s' }}></div>
+          <div className="absolute bottom-1/4 left-1/4 w-1.5 h-1.5 bg-secondary rounded-full animate-ping" style={{ animationDelay: '5s' }}></div>
+          <div className="absolute top-1/2 right-1/4 w-1 h-1 bg-warning rounded-full animate-ping" style={{ animationDelay: '7s' }}></div>
         </div>
 
         <div className="relative z-10 max-w-4xl mx-auto text-center">
@@ -48,10 +60,10 @@ const Home = () => {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            <span className="gradient-text">Creative Developer</span>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight animate-fade-in">
+            <span className="gradient-text bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-accent animate-pulse">Creative Developer</span>
             <br />
-            <span className="text-foreground">& UI Designer</span>
+            <span className="text-foreground hover:gradient-text transition-all duration-500">& UI Designer</span>
           </h1>
 
           {/* Subtitle */}
@@ -65,7 +77,7 @@ const Home = () => {
             <Button 
               asChild
               size="lg"
-              className="bg-gradient-primary hover:shadow-glow transition-all duration-300 group"
+              className="bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-accent hover:shadow-glow hover:scale-105 transition-all duration-300 group border-0 text-white font-semibold"
             >
               <Link to="/portfolio">
                 View My Work

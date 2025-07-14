@@ -10,13 +10,13 @@
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
     
-    /* Brand colors - Vibrant gradients */
-    --primary: 271 91% 65%;
-    --primary-glow: 280 100% 85%;
-    --secondary: 217 91% 60%;
-    --accent: 330 85% 65%;
-    --warning: 38 92% 50%;
-    --success: 142 76% 36%;
+    /* Brand colors - Vibrant unique palette */
+    --primary: 280 100% 70%;
+    --primary-glow: 290 100% 85%;
+    --secondary: 190 100% 65%;
+    --accent: 40 100% 65%;
+    --warning: 25 100% 60%;
+    --success: 160 80% 50%;
     
     /* UI colors */
     --card: 240 10% 5%;
@@ -40,6 +40,7 @@
     --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--warning)));
     --gradient-glow: linear-gradient(135deg, hsl(var(--primary-glow)), hsl(var(--accent)));
     --gradient-background: linear-gradient(180deg, hsl(var(--background)), hsl(240 10% 6%));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary) / 0.1), hsl(var(--secondary) / 0.1), hsl(var(--accent) / 0.1));
     
     /* Shadows */
     --shadow-primary: 0 20px 60px -10px hsl(var(--primary) / 0.3);
