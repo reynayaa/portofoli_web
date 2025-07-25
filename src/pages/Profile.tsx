@@ -114,21 +114,21 @@ const Profile = () => {
                     </div>
                     <div className="absolute inset-0 bg-gradient-glow rounded-full blur-lg opacity-30"></div>
                   </div>
-                  <h2 className="text-2xl font-bold mb-2">Your Name</h2>
-                  <p className="text-primary font-medium mb-4">Creative Developer & UI Designer</p>
+                  <h2 className="text-2xl font-bold mb-2">Rey Naya Sari</h2>
+                  <p className="text-primary font-medium mb-4">Social Media Management & Writing</p>
                   
                   <div className="space-y-3 text-left">
                     <div className="flex items-center text-muted-foreground">
                       <MapPin className="w-4 h-4 mr-3" />
-                      Jakarta, Indonesia
+                      Makassar, Indonesia
                     </div>
                     <div className="flex items-center text-muted-foreground">
                       <Mail className="w-4 h-4 mr-3" />
-                      hello@example.com
+                      reynayasari6@gmail.com
                     </div>
                     <div className="flex items-center text-muted-foreground">
                       <Phone className="w-4 h-4 mr-3" />
-                      +62 812 3456 7890
+                      +62 823 3579 8325
                     </div>
                   </div>
                   
@@ -148,17 +148,11 @@ const Profile = () => {
                 </CardHeader>
                 <CardContent className="space-y-6">
                   <p className="text-muted-foreground leading-relaxed">
-                    Hello! I'm a passionate creative developer with over 3 years of experience in building 
-                    beautiful and functional digital experiences. My journey started with a curiosity about 
-                    how websites work, and it has evolved into a deep love for creating solutions that combine 
-                    aesthetic appeal with technical excellence.
+                  Halo! Saya Rey Naya Sari, mahasiswi aktif prodi Bisnis Digital, Universitas Negeri Makassar, dengan minat besar dalam dunia digital marketing. Saya percaya bahwa pemasaran digital bukan hanya tentang promosi, tetapi juga bagaimana membangun pengalaman yang bermakna dan berkelanjutan bagi audiens melalui strategi yang tepat dan berbasis data.
                   </p>
                   
                   <p className="text-muted-foreground leading-relaxed">
-                    I specialize in frontend development with React, TypeScript, and modern CSS frameworks, 
-                    but I also enjoy working on backend technologies and exploring new tools. When I'm not coding, 
-                    you can find me experimenting with UI/UX design, contributing to open source projects, 
-                    or sharing knowledge with the developer community.
+                  Selama masa studi, saya telah mempelajari berbagai topik seperti SEO, PPC, Email Marketing, Social Media Strategy, Content Marketing, dan juga kemampuan teknis seperti analisis data (Python, SQL) serta tools visualisasi seperti Looker Studio dan Google Colab.
                   </p>
 
                   <div className="space-y-4">
@@ -166,15 +160,15 @@ const Profile = () => {
                     <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start">
                         <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                        Building a SaaS platform for content creators
+                        Social Media Intern
                       </li>
                       <li className="flex items-start">
                         <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                        Learning Three.js for 3D web experiences
+                        Content Creator
                       </li>
                       <li className="flex items-start">
                         <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                        Contributing to React ecosystem open source projects
+                        Digital Communication Assistant
                       </li>
                     </ul>
                   </div>

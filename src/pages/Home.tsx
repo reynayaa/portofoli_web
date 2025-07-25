@@ -54,22 +54,18 @@ const Home = () => {
 
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           {/* Badge */}
-          <div className="inline-flex items-center px-4 py-2 rounded-full glass border border-primary/30 mb-8 group hover:shadow-glow transition-all duration-300">
-            <Star className="w-4 h-4 text-warning mr-2" />
-            <span className="text-sm font-medium">Available for freelance work</span>
-          </div>
+         
 
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight animate-fade-in">
-            <span className="gradient-text bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-accent animate-pulse">Creative Developer</span>
+            <span className="gradient-text bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-accent animate-pulse">HI, I'M</span>
             <br />
-            <span className="text-foreground hover:gradient-text transition-all duration-500">& UI Designer</span>
+            <span className="text-foreground hover:gradient-text transition-all duration-500">REY NAYA SARI</span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            I craft beautiful digital experiences through innovative design and clean code. 
-            Let's bring your ideas to life.
+          A Social Media Analyst and Writer passionate about how data and content shape perception and create real connections.
           </p>
 
           {/* CTA Buttons */}
